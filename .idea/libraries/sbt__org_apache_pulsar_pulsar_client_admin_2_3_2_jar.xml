@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.apache.pulsar:pulsar-client-admin:2.3.2:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.pulsar/pulsar-client-admin/jars/pulsar-client-admin-2.3.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.pulsar/pulsar-client-admin/srcs/pulsar-client-admin-2.3.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

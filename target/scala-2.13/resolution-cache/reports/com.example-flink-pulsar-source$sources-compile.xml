@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.example"
+		module="flink-pulsar-source$sources"
+		revision="0.1.0-SNAPSHOT"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20190711142631"/>
+	<dependencies>
+		<module organisation="org.objenesis" name="objenesis">
+			<revision name="2.6" status="release" pubdate="20170620082837" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://objenesis.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3457" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.objenesis/objenesis/ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="objenesis" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="57063" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.objenesis/objenesis/srcs/objenesis-2.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.flink" name="flink-core">
+			<revision name="1.8.0" status="release" pubdate="20190403141718" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="19">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="20921" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.apache.flink/flink-core/ivy-1.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-core/1.8.0/flink-core-1.8.0.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="1.8.0" rev-constraint-default="1.8.0" rev-constraint-dynamic="1.8.0" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="flink-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1207955" time="184" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.apache.flink/flink-core/srcs/flink-core-1.8.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-core/1.8.0/flink-core-1.8.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-compress">
+			<revision name="1.18" status="release" pubdate="20180813002452" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://commons.apache.org/proper/commons-compress/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="16134" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.apache.commons/commons-compress/ivy-1.18.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.18/commons-compress-1.18.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="1.18" rev-constraint-default="1.18" rev-constraint-dynamic="1.18" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-compress" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="541624" time="99" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.apache.commons/commons-compress/srcs/commons-compress-1.18-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.18/commons-compress-1.18-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.esotericsoftware.kryo" name="kryo">
+			<revision name="2.24.0" status="release" pubdate="20140504060438" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/EsotericSoftware/kryo" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="New BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3502" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/com.esotericsoftware.kryo/kryo/ivy-2.24.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="2.24.0" rev-constraint-default="2.24.0" rev-constraint-dynamic="2.24.0" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="kryo" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="126718" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/com.esotericsoftware.kryo/kryo/srcs/kryo-2.24.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.esotericsoftware.minlog" name="minlog">
+			<revision name="1.2" status="release" pubdate="20120531052649" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/minlog/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="New BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2665" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/com.esotericsoftware.minlog/minlog/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="minlog" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2458" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/com.esotericsoftware.minlog/minlog/srcs/minlog-1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.flink" name="flink-shaded-asm">
+			<revision name="5.0.4-6.0" status="release" pubdate="20190206043137" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4204" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.apache.flink/flink-shaded-asm/ivy-5.0.4-6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-shaded-asm/5.0.4-6.0/flink-shaded-asm-5.0.4-6.0.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="5.0.4-6.0" rev-constraint-default="5.0.4-6.0" rev-constraint-dynamic="5.0.4-6.0" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="flink-shaded-asm" type="src" ext="jar" extra-classifier="sources" status="failed" details="" size="0" time="0"/>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.flink" name="flink-metrics-core">
+			<revision name="1.8.0" status="release" pubdate="20190403141558" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="21156" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.apache.flink/flink-metrics-core/ivy-1.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-metrics-core/1.8.0/flink-metrics-core-1.8.0.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="1.8.0" rev-constraint-default="1.8.0" rev-constraint-dynamic="1.8.0" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="flink-metrics-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="21975" time="52" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.apache.flink/flink-metrics-core/srcs/flink-metrics-core-1.8.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-metrics-core/1.8.0/flink-metrics-core-1.8.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.pulsar" name="pulsar-client-admin">
+			<revision name="2.3.2" status="release" pubdate="20190521184424" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="16">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="54324" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.apache.pulsar/pulsar-client-admin/ivy-2.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/pulsar/pulsar-client-admin/2.3.2/pulsar-client-admin-2.3.2.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="pulsar-client-admin" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11137" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.apache.pulsar/pulsar-client-admin/srcs/pulsar-client-admin-2.3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/pulsar/pulsar-client-admin/2.3.2/pulsar-client-admin-2.3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.xml.bind" name="jaxb-api">
+			<revision name="2.3.1" status="release" pubdate="20180912062852" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="CDDL 1.1" url="https://oss.oracle.com/licenses/CDDL+GPL-1.1"/>
+				<license name="GPL2 w/ CPE" url="https://oss.oracle.com/licenses/CDDL+GPL-1.1"/>
+				<metadata-artifact status="no" details="" size="4209" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/javax.xml.bind/jaxb-api/ivy-2.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="2.3.1" rev-constraint-default="2.3.1" rev-constraint-dynamic="2.3.1" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jaxb-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="271123" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/javax.xml.bind/jaxb-api/srcs/jaxb-api-2.3.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.validation" name="validation-api">
+			<revision name="1.1.0.Final" status="release" pubdate="20130410060303" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://beanvalidation.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3200" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/javax.validation/validation-api/ivy-1.1.0.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="1.1.0.Final" rev-constraint-default="1.1.0.Final" rev-constraint-dynamic="1.1.0.Final" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="validation-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="94671" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/javax.validation/validation-api/srcs/validation-api-1.1.0.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.activation" name="javax.activation">
+			<revision name="1.2.0" status="release" pubdate="20170906161311" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="CDDL/GPLv2+CE" url="https://github.com/javaee/activation/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="5617" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/com.sun.activation/javax.activation/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="javax.activation" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="106939" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/com.sun.activation/javax.activation/srcs/javax.activation-1.2.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bouncycastle" name="bcpkix-jdk15on">
+			<revision name="1.60" status="release" pubdate="20180705172238" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="Bouncy Castle Licence" url="http://www.bouncycastle.org/licence.html"/>
+				<metadata-artifact status="no" details="" size="2927" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.bouncycastle/bcpkix-jdk15on/ivy-1.60.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="1.60" rev-constraint-default="1.60" rev-constraint-dynamic="1.60" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="bcpkix-jdk15on" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="499089" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.bouncycastle/bcpkix-jdk15on/srcs/bcpkix-jdk15on-1.60-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.luben" name="zstd-jni">
+			<revision name="1.3.7-3" status="release" pubdate="20181204163248" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/luben/zstd-jni" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="BSD 2-Clause License" url="https://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="2874" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/com.github.luben/zstd-jni/ivy-1.3.7-3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/luben/zstd-jni/1.3.7-3/zstd-jni-1.3.7-3.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="1.3.7-3" rev-constraint-default="1.3.7-3" rev-constraint-dynamic="1.3.7-3" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="zstd-jni" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="16744" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/com.github.luben/zstd-jni/srcs/zstd-jni-1.3.7-3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/luben/zstd-jni/1.3.7-3/zstd-jni-1.3.7-3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.lz4" name="lz4-java">
+			<revision name="1.5.0" status="release" pubdate="20180925102742" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lz4/lz4-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2736" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.lz4/lz4-java/ivy-1.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/lz4/lz4-java/1.5.0/lz4-java-1.5.0.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="1.5.0" rev-constraint-default="1.5.0" rev-constraint-dynamic="1.5.0" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="lz4-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="62985" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.lz4/lz4-java/srcs/lz4-java-1.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/lz4/lz4-java/1.5.0/lz4-java-1.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.pulsar" name="protobuf-shaded">
+			<revision name="2.1.0-incubating" status="release" pubdate="20180719153859" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="45596" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.apache.pulsar/protobuf-shaded/ivy-2.1.0-incubating.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/pulsar/protobuf-shaded/2.1.0-incubating/protobuf-shaded-2.1.0-incubating.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="2.1.0-incubating" rev-constraint-default="2.1.0-incubating" rev-constraint-dynamic="2.1.0-incubating" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="protobuf-shaded" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7055" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.apache.pulsar/protobuf-shaded/srcs/protobuf-shaded-2.1.0-incubating-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/pulsar/protobuf-shaded/2.1.0-incubating/protobuf-shaded-2.1.0-incubating-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.pulsar" name="pulsar-client-api">
+			<revision name="2.3.2" status="release" pubdate="20190521182511" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="51079" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.apache.pulsar/pulsar-client-api/ivy-2.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/pulsar/pulsar-client-api/2.3.2/pulsar-client-api-2.3.2.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="pulsar-client-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="86536" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.apache.pulsar/pulsar-client-api/srcs/pulsar-client-api-2.3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/pulsar/pulsar-client-api/2.3.2/pulsar-client-api-2.3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bouncycastle" name="bcprov-jdk15on">
+			<revision name="1.60" status="release" pubdate="20180705171943" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Bouncy Castle Licence" url="http://www.bouncycastle.org/licence.html"/>
+				<metadata-artifact status="no" details="" size="2676" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.bouncycastle/bcprov-jdk15on/ivy-1.60.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="1.60" rev-constraint-default="1.60" rev-constraint-dynamic="1.60" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="bcprov-jdk15on" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3583377" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.bouncycastle/bcprov-jdk15on/srcs/bcprov-jdk15on-1.60-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.13.0" status="release" pubdate="20190607040246" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.scala-lang.org/" extra-info.apiURL="https://www.scala-lang.org/api/2.13.0/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="11">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2659" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.scala-lang/scala-library/ivy-2.13.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="https://www.scala-lang.org/api/2.13.0/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="990929" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.13.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="jul-to-slf4j">
+			<revision name="1.7.25" status="release" pubdate="20170316093746" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5260" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.slf4j/jul-to-slf4j/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jul-to-slf4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4872" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.slf4j/jul-to-slf4j/srcs/jul-to-slf4j-1.7.25-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.25" status="release" pubdate="20170316093632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5199" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="55539" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.25-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.flink" name="flink-shaded-guava">
+			<revision name="18.0-6.0" status="release" pubdate="20190206043224" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4210" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.apache.flink/flink-shaded-guava/ivy-18.0-6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-shaded-guava/18.0-6.0/flink-shaded-guava-18.0-6.0.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="18.0-6.0" rev-constraint-default="18.0-6.0" rev-constraint-dynamic="18.0-6.0" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="flink-shaded-guava" type="src" ext="jar" extra-classifier="sources" status="failed" details="" size="0" time="0"/>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.avro" name="avro-protobuf">
+			<revision name="1.8.2" status="release" pubdate="20170507115525" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11401" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.apache.avro/avro-protobuf/ivy-1.8.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/avro/avro-protobuf/1.8.2/avro-protobuf-1.8.2.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="1.8.2" rev-constraint-default="1.8.2" rev-constraint-dynamic="1.8.2" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="avro-protobuf" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12618" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.apache.avro/avro-protobuf/srcs/avro-protobuf-1.8.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/avro/avro-protobuf/1.8.2/avro-protobuf-1.8.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.avro" name="avro">
+			<revision name="1.8.2" status="release" pubdate="20170507115247" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://avro.apache.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="12076" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.apache.avro/avro/ivy-1.8.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/avro/avro/1.8.2/avro-1.8.2.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="1.8.2" rev-constraint-default="1.8.2" rev-constraint-dynamic="1.8.2" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="avro" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="300643" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.apache.avro/avro/srcs/avro-1.8.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/avro/avro/1.8.2/avro-1.8.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.tukaani" name="xz">
+			<revision name="1.5" status="release" pubdate="20140308033924" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://tukaani.org/xz/java.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Public Domain"/>
+				<metadata-artifact status="no" details="" size="2403" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.tukaani/xz/ivy-1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/tukaani/xz/1.5/xz-1.5.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="xz" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="117832" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.tukaani/xz/srcs/xz-1.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/tukaani/xz/1.5/xz-1.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.xerial.snappy" name="snappy-java">
+			<revision name="1.1.1.3" status="release" pubdate="20140718145918" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.comm/xerial/snappy-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3451" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.xerial.snappy/snappy-java/ivy-1.1.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.1.3/snappy-java-1.1.1.3.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="1.1.1.3" rev-constraint-default="1.1.1.3" rev-constraint-dynamic="1.1.1.3" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="snappy-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="585426" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.xerial.snappy/snappy-java/srcs/snappy-java-1.1.1.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.1.3/snappy-java-1.1.1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-mapper-asl">
+			<revision name="1.9.13" status="release" pubdate="20130714200750" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2787" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/ivy-1.9.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-mapper-asl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="548251" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/srcs/jackson-mapper-asl-1.9.13-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.7" status="release" pubdate="20140816132110" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="BSD" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="4248" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/com.thoughtworks.paranamer/paranamer/ivy-2.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.7/paranamer-2.7.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="2.7" rev-constraint-default="2.7" rev-constraint-dynamic="2.7" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="paranamer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27052" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/com.thoughtworks.paranamer/paranamer/srcs/paranamer-2.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.7/paranamer-2.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.inject" name="javax.inject">
+			<revision name="1" status="release" pubdate="20091013163500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/atinject/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2506" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/javax.inject/javax.inject/ivy-1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="1" rev-constraint-default="1" rev-constraint-dynamic="1" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="javax.inject" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10928" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/javax.inject/javax.inject/srcs/javax.inject-1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.flink" name="flink-annotations">
+			<revision name="1.8.0" status="release" pubdate="20190403141412" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="18964" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.apache.flink/flink-annotations/ivy-1.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-annotations/1.8.0/flink-annotations-1.8.0.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="1.8.0" rev-constraint-default="1.8.0" rev-constraint-dynamic="1.8.0" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="flink-annotations" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="13249" time="41" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.apache.flink/flink-annotations/srcs/flink-annotations-1.8.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-annotations/1.8.0/flink-annotations-1.8.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.flink" name="force-shading">
+			<revision name="1.8.0" status="release" pubdate="20190403141353" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3676" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.apache.flink/force-shading/ivy-1.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/force-shading/1.8.0/force-shading-1.8.0.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="1.8.0" rev-constraint-default="1.8.0" rev-constraint-dynamic="1.8.0" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="force-shading" type="src" ext="jar" extra-classifier="sources" status="failed" details="" size="0" time="0"/>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-core-asl">
+			<revision name="1.9.13" status="release" pubdate="20130714200730" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2564" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/ivy-1.9.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-core-asl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="240367" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/srcs/jackson-core-asl-1.9.13-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-lang3">
+			<revision name="3.3.2" status="release" pubdate="20140406052129" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10669" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="3.3.2" rev-constraint-default="3.3.2" rev-constraint-dynamic="3.3.2" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-lang3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="470961" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/org.apache.commons/commons-lang3/srcs/commons-lang3-3.3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.activation" name="javax.activation-api">
+			<revision name="1.2.0" status="release" pubdate="20170906161319" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="CDDL/GPLv2+CE" url="https://github.com/javaee/activation/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="5257" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/javax.activation/javax.activation-api/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="javax.activation-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="78896" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/javax.activation/javax.activation-api/srcs/javax.activation-api-1.2.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-collections" name="commons-collections">
+			<revision name="3.2.2" status="release" pubdate="20151112151126" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11113" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/commons-collections/commons-collections/ivy-3.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.pom"/>
+				<caller organisation="com.example" name="flink-pulsar-source$sources" conf="compile" rev="3.2.2" rev-constraint-default="3.2.2" rev-constraint-dynamic="3.2.2" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-collections" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="646075" time="0" location="/home/CORP.INSTRUCTURE.COM/alangford/.ivy2/cache/commons-collections/commons-collections/srcs/commons-collections-3.2.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

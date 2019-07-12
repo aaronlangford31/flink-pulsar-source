@@ -7,6 +7,7 @@ ThisBuild / organizationName := "example"
 
 val pulsarVersion = "2.3.2"
 val flinkVersion = "1.8.0"
+val avro4sVersion = "2.0.4"
 
 lazy val root = (project in file("."))
   .settings(
@@ -15,6 +16,7 @@ lazy val root = (project in file("."))
       Seq(scalaTest % Test)
         ++ Dependencies.pulsar(pulsarVersion)
         ++ Dependencies.flink(flinkVersion)
+        ++ Dependencies.avro(avro4sVersion)
   )
 
 // See https://www.scala-sbt.org/1.x/docs/Using-Sonatype.html for instructions on how to publish to Sonatype.

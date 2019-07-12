@@ -14,4 +14,8 @@ object Dependencies {
     "org.apache.flink" % "flink-core" % flinkVersion,
     "org.apache.flink" %% "flink-streaming-java" % flinkVersion
   )
+
+  def avro(avro4sVersion: String): Seq[ModuleID] = Seq(
+    "com.sksamuel.avro4s" %% "avro4s-core" % avro4sVersion
+  )
 }
